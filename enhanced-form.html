@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced HTML5 Content & Form</title>
+</head>
+<body>
+
+  <header>
+    <h1>HTML5 Enhanced Content & Form</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Popular Web Technologies</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Web Development Roadmap</h2>
+      <ol>
+        <li>Learn HTML5</li>
+        <li>Master CSS</li>
+        <li>Understand JavaScript</li>
+        <li>Explore Backend Languages</li>
+        <li>Practice Database Management</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>HTML5 Features Comparison</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Description</th>
+            <th>Support</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Semantic Tags</td>
+            <td>Provides meaningful structure</td>
+            <td>All modern browsers</td>
+          </tr>
+          <tr>
+            <td>Audio/Video</td>
+            <td>Native media embedding</td>
+            <td>All modern browsers</td>
+          </tr>
+          <tr>
+            <td>Canvas</td>
+            <td>Dynamic graphics rendering</td>
+            <td>All modern browsers</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Media Showcase</h2>
+      <figure>
+        <img src="https://via.placeholder.com/300x200" alt="Sample Image">
+        <figcaption>Sample HTML5 Image</figcaption>
+      </figure>
+      <figure>
+        <audio controls>
+          <source src="sample.mp3" type="audio/mpeg">
+        </audio>
+        <figcaption>Sample HTML5 Audio</figcaption>
+      </figure>
+      <figure>
+        <video controls width="320" height="240">
+          <source src="sample.mp4" type="video/mp4">
+        </video>
+        <figcaption>Sample HTML5 Video</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>User Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="John Doe" required minlength="3"><br><br>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required><br><br>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="">Select...</option>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="ke">Kenya</option>
+          </select><br><br>
+
+          <label>Subscription Type:</label>
+          <input type="radio" id="basic" name="subscription" value="basic" required>
+          <label for="basic">Basic</label>
+          <input type="radio" id="premium" name="subscription" value="premium">
+          <label for="premium">Premium</label><br><br>
+
+          <label for="interests">Areas of Interest:</label><br>
+          <input type="checkbox" id="web" name="interests" value="web">
+          <label for="web">Web Development</label><br>
+          <input type="checkbox" id="ai" name="interests" value="ai">
+          <label for="ai">Artificial Intelligence</label><br>
+          <input type="checkbox" id="data" name="interests" value="data">
+          <label for="data">Data Science</label><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Details</legend>
+          <label for="website">Website:</label>
+          <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+
+          <label for="comments">Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Enter your comments"></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Enhanced HTML5 Assignment</p>
+  </footer>
+
+</body>
+</html>
